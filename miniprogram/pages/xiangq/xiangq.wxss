@@ -1,0 +1,61 @@
+/* miniprogram/pages/xiangq/xiangq.wxss */
+.bjcolor{
+  background:hsla(40, 100%, 95%, 0.904);
+}
+.zongcla{
+  width: 100%;
+  height: 100%;
+  margin-left: 8rpx;
+  /* background-color:#7c4328; */
+  
+}
+.banner{
+  width: 90rpx;
+  height: 90rpx;
+  /* display: block; */
+  margin-left: 145rpx;
+  margin-top: 16rpx;
+
+}
+.whclass{
+  margin-top: 16rpx;
+  font-size: 34rpx;
+  font-weight: bold;
+}
+.yhclass{
+  /* margin-top: 16rpx; */
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.yhtext{
+  margin-top: 16rpx;
+
+}
+.ehclass{
+  margin-top: 16rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.shclass{
+  margin-top: 16rpx;
+  font-size: 30rpx;
+  /* font-weight: bold; */
+}
+.lbtclass{
+   margin-top: 16rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+  color: green;
+}
+.shclass{
+  margin-top: 16rpx;
+  font-size: 33rpx;
+  /* font-weight: bold; */
+  color: rgb(0, 0, 0);
+}
+.hbtclass{
+   margin-top: 16rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+  color: rgb(179, 82, 2);
+}

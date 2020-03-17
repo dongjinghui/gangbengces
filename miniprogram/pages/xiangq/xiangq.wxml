@@ -1,0 +1,45 @@
+<!--miniprogram/pages/xiangq/xiangq.wxml-->
+<view class="bjcolor">
+  <view class="zongcla">
+        <view class="yhclass"><text class="yhtext">{{yh}}</text>
+      <image  class='banner' src='{{az}}'></image> 
+    </view>
+    <view class="ehclass">{{eh}}</view>
+    <view class="shclass">{{sh}}</view> 
+    <view class="whclass">{{wh}}</view> 
+    <view class="shclass">{{lh}}</view> 
+    <view class="shclass">{{qh}}</view> 
+    <view class="shclass">{{bh}}</view> 
+    <view class="shclass">{{jh}}</view> 
+    <view class="lbtclass">象曰：<text class="shclass">{{xiangyue}}</text></view> 
+    <view class="lbtclass">事业：<text class="shclass">{{shiye}}</text></view> 
+    <view class="lbtclass">经商：<text class="shclass">{{jieshang}}</text></view> 
+    <view class="lbtclass">求名：<text class="shclass">{{qiuming}}</text></view> 
+    <view class="lbtclass">外出：<text class="shclass">{{waichu}}</text></view> 
+    <view class="lbtclass">婚恋：<text class="shclass">{{hunlian}}</text></view> 
+    <view class="lbtclass">决策：<text class="shclass">{{jiece}}</text></view> 
+    <view class="ehclass">台湾张铭仁解卦：</view>
+    <view class="shclass"><text class="shclass">{{sqih}}</text></view> 
+    <view class="hbtclass">解释：<text class="shclass">{{jieshi}}</text></view> 
+    <view class="hbtclass">特性：<text class="shclass">{{texing}}</text></view> 
+    <view class="hbtclass">运势：<text class="shclass">{{xunren}}</text></view> 
+    <view class="hbtclass">家运：<text class="shclass">{{jiayun}}</text></view> 
+    <view class="hbtclass">疾病：<text class="shclass">{{jibing}}</text></view> 
+    <view class="hbtclass">胎运：<text class="shclass">{{taiyun}}</text></view> 
+    <view class="hbtclass">子女：<text class="shclass">{{zinv}}</text></view> 
+    <view class="hbtclass">周转：<text class="shclass">{{zhouzhuan}}</text></view> 
+    <view class="hbtclass">买卖：<text class="shclass">{{maimai}}</text></view> 
+    <view class="hbtclass">等人：<text class="shclass">{{dengren}}</text></view> 
+    <view class="hbtclass">失物：<text class="shclass">{{shiwu}}</text></view> 
+    <view class="hbtclass">考试：<text class="shclass">{{kaoshi}}</text></view> 
+    <view class="hbtclass">诉讼：<text class="shclass">{{susong}}</text></view> 
+    <view class="hbtclass">求事：<text class="shclass">{{qiushi}}</text></view> 
+    <view class="hbtclass">改行：<text class="shclass">{{gaihang}}</text></view> 
+    <view class="hbtclass">开业：<text class="shclass">{{kaiye}}</text></view> 
+  </view>
+</view>
+  
+
+    
+
+

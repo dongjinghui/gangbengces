@@ -1,0 +1,266 @@
+<!--index.wxml-->
+<view class="container">
+<!-- 包裹尺寸 -->
+<view class='package'>
+  <text class='describe'>输入第一次投掷结果</text>
+  <view class='info'>
+    <view class='input_box'>
+      <view class='property'>1、</view>
+      <!-- <input class='num' type='number' bindblur="srif" maxlength="1" data-id="h11" placeholder='字/花'  placeholder-class='right'></input> -->
+      <view class="fright">
+           <picker bindchange="bindDepotChangeh11" data-id="h11" name="depot" value="{{depotindexh11}}" range="{{depot}}">
+              <view class="picker">
+                  <text  class="zhtext">{{depot[depotindexh11]}}</text>
+                  <view style="float:right;margin-right:7px;margin-top: 4px;">
+                        <image src="../../images/comment/Arrow-bottom.png" class="arrow"></image>
+                  </view>
+              </view>
+            </picker>
+          </view>
+    </view>
+    <view class='input_box'>
+      <view class='property'>2、</view>
+     <view class="fright">
+           <picker bindchange="bindDepotChangeh12" data-id="h12" name="depot" value="{{depotindexh12}}" range="{{depot}}">
+              <view class="picker">
+                  <text  class="zhtext">{{depot[depotindexh12]}}</text>
+                  <view style="float:right;margin-right:7px;margin-top: 4px;">
+                        <image src="../../images/comment/Arrow-bottom.png" class="arrow"></image>
+                  </view>
+              </view>
+            </picker>
+          </view>
+    </view>
+     <view class='input_box'>
+      <view class='property'>3、</view>
+      <view class="fright">
+           <picker bindchange="bindDepotChangeh13" data-id="h13" name="depot" value="{{depotindexh13}}" range="{{depot}}">
+              <view class="picker">
+                  <text  class="zhtext">{{depot[depotindexh13]}}</text>
+                  <view style="float:right;margin-right:7px;margin-top: 4px;">
+                        <image src="../../images/comment/Arrow-bottom.png" class="arrow"></image>
+                  </view>
+              </view>
+            </picker>
+          </view>
+    </view>
+  </view>
+   <text class='describe'>输入第二次投掷结果</text>
+  <view class='info'>
+    <view class='input_box'>
+      <view class='property'>1、</view>
+      <view class="fright">
+           <picker bindchange="bindDepotChangeh21" data-id="h21" name="depot" value="{{depotindexh21}}" range="{{depot}}">
+              <view class="picker">
+                  <text  class="zhtext">{{depot[depotindexh21]}}</text>
+                  <view style="float:right;margin-right:7px;margin-top: 4px;">
+                        <image src="../../images/comment/Arrow-bottom.png" class="arrow"></image>
+                  </view>
+              </view>
+            </picker>
+          </view>
+    </view>
+    <view class='input_box'>
+      <view class='property'>2、</view>
+     <view class="fright">
+           <picker bindchange="bindDepotChangeh22" data-id="h22" name="depot" value="{{depotindexh22}}" range="{{depot}}">
+              <view class="picker">
+                  <text  class="zhtext">{{depot[depotindexh22]}}</text>
+                  <view style="float:right;margin-right:7px;margin-top: 4px;">
+                        <image src="../../images/comment/Arrow-bottom.png" class="arrow"></image>
+                  </view>
+              </view>
+            </picker>
+          </view>
+    </view>
+     <view class='input_box'>
+      <view class='property'>3、</view>
+     <view class="fright">
+           <picker bindchange="bindDepotChangeh23" data-id="h23" name="depot" value="{{depotindexh23}}" range="{{depot}}">
+              <view class="picker">
+                  <text  class="zhtext">{{depot[depotindexh23]}}</text>
+                  <view style="float:right;margin-right:7px;margin-top: 4px;">
+                        <image src="../../images/comment/Arrow-bottom.png" class="arrow"></image>
+                  </view>
+              </view>
+            </picker>
+          </view>
+    </view>
+  </view>
+  <text class='describe'>输入第三次投掷结果</text>
+  <view class='info'>
+    <view class='input_box'>
+      <view class='property'>1、</view>
+     <view class="fright">
+           <picker bindchange="bindDepotChangeh31" data-id="h31" name="depot" value="{{depotindexh31}}" range="{{depot}}">
+              <view class="picker">
+                  <text  class="zhtext">{{depot[depotindexh31]}}</text>
+                  <view style="float:right;margin-right:7px;margin-top: 4px;">
+                        <image src="../../images/comment/Arrow-bottom.png" class="arrow"></image>
+                  </view>
+              </view>
+            </picker>
+          </view>
+    </view>
+    <view class='input_box'>
+      <view class='property'>2、</view>
+     <view class="fright">
+           <picker bindchange="bindDepotChangeh32" data-id="h32" name="depot" value="{{depotindexh32}}" range="{{depot}}">
+              <view class="picker">
+                  <text  class="zhtext">{{depot[depotindexh32]}}</text>
+                  <view style="float:right;margin-right:7px;margin-top: 4px;">
+                        <image src="../../images/comment/Arrow-bottom.png" class="arrow"></image>
+                  </view>
+              </view>
+            </picker>
+          </view>
+    </view>
+     <view class='input_box'>
+      <view class='property'>3、</view>
+    <view class="fright">
+           <picker bindchange="bindDepotChangeh33" data-id="h33" name="depot" value="{{depotindexh33}}" range="{{depot}}">
+              <view class="picker">
+                  <text  class="zhtext">{{depot[depotindexh33]}}</text>
+                  <view style="float:right;margin-right:7px;margin-top: 4px;">
+                        <image src="../../images/comment/Arrow-bottom.png" class="arrow"></image>
+                  </view>
+              </view>
+            </picker>
+          </view>
+    </view>
+  </view>
+  <text class='describe'>输入第四次投掷结果</text>
+  <view class='info'>
+    <view class='input_box'>
+      <view class='property'>1、</view>
+      <view class="fright">
+           <picker bindchange="bindDepotChangeh41" data-id="h41" name="depot" value="{{depotindexh41}}" range="{{depot}}">
+              <view class="picker">
+                  <text  class="zhtext">{{depot[depotindexh41]}}</text>
+                  <view style="float:right;margin-right:7px;margin-top: 4px;">
+                        <image src="../../images/comment/Arrow-bottom.png" class="arrow"></image>
+                  </view>
+              </view>
+            </picker>
+          </view>
+    </view>
+    <view class='input_box'>
+      <view class='property'>2、</view>
+    <view class="fright">
+           <picker bindchange="bindDepotChangeh42" data-id="h42" name="depot" value="{{depotindexh42}}" range="{{depot}}">
+              <view class="picker">
+                  <text  class="zhtext">{{depot[depotindexh42]}}</text>
+                  <view style="float:right;margin-right:7px;margin-top: 4px;">
+                        <image src="../../images/comment/Arrow-bottom.png" class="arrow"></image>
+                  </view>
+              </view>
+            </picker>
+          </view>
+    </view>
+     <view class='input_box'>
+      <view class='property'>3、</view>
+      <view class="fright">
+           <picker bindchange="bindDepotChangeh43" data-id="h43" name="depot" value="{{depotindexh43}}" range="{{depot}}">
+              <view class="picker">
+                  <text  class="zhtext">{{depot[depotindexh43]}}</text>
+                  <view style="float:right;margin-right:7px;margin-top: 4px;">
+                        <image src="../../images/comment/Arrow-bottom.png" class="arrow"></image>
+                  </view>
+              </view>
+            </picker>
+          </view>
+    </view>
+  </view>
+  <text class='describe'>输入第五次投掷结果</text>
+  <view class='info'>
+    <view class='input_box'>
+      <view class='property'>1、</view>
+      <view class="fright">
+           <picker bindchange="bindDepotChangeh51" data-id="h51" name="depot" value="{{depotindexh51}}" range="{{depot}}">
+              <view class="picker">
+                  <text  class="zhtext">{{depot[depotindexh51]}}</text>
+                  <view style="float:right;margin-right:7px;margin-top: 4px;">
+                        <image src="../../images/comment/Arrow-bottom.png" class="arrow"></image>
+                  </view>
+              </view>
+            </picker>
+          </view>
+    </view>
+    <view class='input_box'>
+      <view class='property'>2、</view>
+      <view class="fright">
+           <picker bindchange="bindDepotChangeh52" data-id="h52" name="depot" value="{{depotindexh52}}" range="{{depot}}">
+              <view class="picker">
+                  <text  class="zhtext">{{depot[depotindexh52]}}</text>
+                  <view style="float:right;margin-right:7px;margin-top: 4px;">
+                        <image src="../../images/comment/Arrow-bottom.png" class="arrow"></image>
+                  </view>
+              </view>
+            </picker>
+          </view>
+    </view>
+     <view class='input_box'>
+      <view class='property'>3、</view>
+       <view class="fright">
+           <picker bindchange="bindDepotChangeh53" data-id="h53" name="depot" value="{{depotindexh53}}" range="{{depot}}">
+              <view class="picker">
+                  <text  class="zhtext">{{depot[depotindexh53]}}</text>
+                  <view style="float:right;margin-right:7px;margin-top: 4px;">
+                        <image src="../../images/comment/Arrow-bottom.png" class="arrow"></image>
+                  </view>
+              </view>
+            </picker>
+          </view>
+    </view>
+  </view>
+ <text class='describe'>输入第六次投掷结果</text>
+  <view class='info'>
+    <view class='input_box'>
+      <view class='property'>1、</view>
+       <view class="fright">
+           <picker bindchange="bindDepotChangeh61" data-id="h61" name="depot" value="{{depotindexh61}}" range="{{depot}}">
+              <view class="picker">
+                  <text  class="zhtext">{{depot[depotindexh61]}}</text>
+                  <view style="float:right;margin-right:7px;margin-top: 4px;">
+                        <image src="../../images/comment/Arrow-bottom.png" class="arrow"></image>
+                  </view>
+              </view>
+            </picker>
+          </view>
+    </view>
+    <view class='input_box'>
+      <view class='property'>2、</view>
+       <view class="fright">
+           <picker bindchange="bindDepotChangeh62" data-id="h62" name="depot" value="{{depotindexh62}}" range="{{depot}}">
+              <view class="picker">
+                  <text  class="zhtext">{{depot[depotindexh62]}}</text>
+                  <view style="float:right;margin-right:7px;margin-top: 4px;">
+                        <image src="../../images/comment/Arrow-bottom.png" class="arrow"></image>
+                  </view>
+              </view>
+            </picker>
+          </view>
+    </view>
+     <view class='input_box'>
+      <view class='property'>3、</view>
+       <view class="fright">
+           <picker bindchange="bindDepotChangeh63" data-id="h63" name="depot" value="{{depotindexh63}}" range="{{depot}}">
+              <view class="picker">
+                  <text  class="zhtext">{{depot[depotindexh63]}}</text>
+                  <view style="float:right;margin-right:7px;margin-top: 4px;">
+                        <image src="../../images/comment/Arrow-bottom.png" class="arrow"></image>
+                  </view>
+              </view>
+            </picker>
+          </view>
+ 
+    </view>
+  </view>
+  <view class='kong'></view>
+
+  <button class='storage' bindtap='order'>生成结果</button>
+<text class='baoxian'>心诚所掷 心诚则灵</text>
+</view>
+
+ 
+</view>

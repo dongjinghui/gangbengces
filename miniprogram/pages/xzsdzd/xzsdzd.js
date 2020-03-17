@@ -8,10 +8,27 @@ Page({
   data: {
     
   },
-
-  tzzxyg:function(){
+  sdyg : function(){
+   
     wx.navigateTo({
-      url: '../zxyg/zxyg' ,
+      url: '../index/index',
+    })
+  },
+  tzzxyg:function(){
+    //生成从minNum到maxNum的随机数
+    var arr = []
+    for (let a = 0; a < 6; a++) {
+      var Array = [];
+      for (var i = 0; i < 3; i++) {
+        var res = Math.round(Math.random());  //四舍五入。
+        Array.push(res);
+      }
+      arr.push(Array)
+
+    }
+
+    wx.navigateTo({
+      url: '../zxyg/zxyg?querba=' + JSON.stringify(arr) ,
     })
   },
   /**

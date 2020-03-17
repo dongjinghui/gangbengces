@@ -7,6 +7,7 @@ Page({
    */
   data: {
     hasResutl: 1,
+    querarr:[],
     bar_state: 0,
     winWidth: 0,
     winHeight: 0,
@@ -18,7 +19,13 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    let querarr = this.data.querarr
+    var querba = JSON.parse(options.querba);
+    console.log(options.querba)
+    console.log("queryBean===" + querba)
+    this.setData({
+      querarr: querba
+    })
   },
 
   /**
@@ -140,6 +147,7 @@ Page({
   *位移
   */
   startAnimation: function () {
+    var listall = this.data.querarr
     var that = this
     //x轴位移100px
     var h1 = "35%";
@@ -156,7 +164,7 @@ Page({
         setTimeout(function () {
           util.throttle(function (res) {//点击事件
             wx.redirectTo({
-              url: '../index/index',
+              url: '../index/index?listall=' + JSON.stringify(listall),
             })
           }, 5000)     
         }, 4000)

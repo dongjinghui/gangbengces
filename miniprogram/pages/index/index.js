@@ -8,6 +8,7 @@ Page({
     userInfo: {},
     arroo:[],
     arrall:[],
+    lall:[],
     num :'',
     h1:[],
     h2:[],
@@ -291,7 +292,42 @@ Page({
       })
   }
   },
-
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad: function (options) {
+    let arrall = this.data.arrall
+    let larr = this.data.lall
+    let arr = options.listall
+    if (listall != null && listall != undefined){
+      var listall = JSON.parse(arr);
+      for(let i=0;i<listall.length;i++){
+        larr.push(listall[i])
+      }
+      this.setData({
+        arrall:listall,
+        depotindexh11: larr[0][0],
+        depotindexh12: larr[0][1],
+        depotindexh13: larr[0][2],
+        depotindexh21: larr[1][0],
+        depotindexh22: larr[1][1],
+        depotindexh23: larr[1][2],
+        depotindexh31: larr[2][0],
+        depotindexh32: larr[2][1],
+        depotindexh33: larr[2][2],
+        depotindexh41: larr[3][0],
+        depotindexh42: larr[3][1],
+        depotindexh43: larr[3][2],
+        depotindexh51: larr[4][0],
+        depotindexh52: larr[4][1],
+        depotindexh53: larr[4][2],
+        depotindexh61: larr[5][0],
+        depotindexh62: larr[5][1],
+        depotindexh63: larr[5][2],
+      })
+      console.log("h11===" + larr[0][0])
+    }
+  },
   onReady: function () {
     // 页面渲染完成
   },
